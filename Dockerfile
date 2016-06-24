@@ -1,2 +1,5 @@
-FROM kivibot/archlinux
+FROM kivibot/arch
+
+MAINTAINER Nicklas Ahlskog
+
 RUN pacman -Syu --noconfirm
